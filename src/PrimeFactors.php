@@ -2,7 +2,7 @@
 
 namespace App;
 
-class primeFactors
+class PrimeFactors
 {
     public function generate($number)
     {

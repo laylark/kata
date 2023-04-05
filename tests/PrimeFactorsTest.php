@@ -3,9 +3,9 @@
 use App\PrimeFactors;
 use PHPUnit\Framework\TestCase;
 
-final class primeFactorsTest extends TestCase
+final class PrimeFactorsTest extends TestCase
 {
-    /** 
+    /**
      * @test
      * @dataProvider factors
      */
@@ -16,7 +16,7 @@ final class primeFactorsTest extends TestCase
         $this->assertEquals([], $factors->generate(1));
     }
 
-    public function factors()
+    public static function factors()
     {
         return [
             [1, []],
